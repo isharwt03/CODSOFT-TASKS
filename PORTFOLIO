@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Isha Rawat Portfolio</title> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+       body {
+       background-image: url('https://thumbs.wbm.im/pw/small/409f8182acbb8b040fab1a43720be4e3.jpg');
+       background-attachment: fixed;
+       background-size: cover;
+       font-family: Arial, sans-serif;
+       line-height: 1.6;
+       margin: 0;
+       padding: 0;
+       color: #030303;
+        }
+        .container {
+            border-radius: 35px;
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            border-radius: 25px;
+            padding-top: 20px;
+            min-height: 50px;
+            border-bottom: #fffb00 3px solid;
+            color: rgb(255, 255, 255);
+        }
+        header h1 {
+            float: left;
+        }
+        header p {
+            float: right;
+            margin-top: 30px;
+        }
+        #about, #skills, #projects, #resume, #contact {
+            padding: 20px;
+            background: #f4f4f4;
+            margin-top: 20px;
+        }
+        #about img {
+            width: 200px;
+            float:left;
+            margin-right: 20px;
+        }
+        .skill {
+            display: inline-block;
+            background: #35424a;
+            color: #ffffff;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+        .project {
+            background: #ffffff;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+        .project img {
+            width: 100%;
+            max-width: 300px;
+        }
+        footer {
+            background: #2b272e7a;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .sidebar {
+            position: fixed;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 40px;
+            background: #550968ec;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+        .sidebar a {
+            color: #fff;
+            font-size: 24px;
+            margin: 15px 0;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+        .sidebar a:hover {
+            transform: scale(1.2);
+            color: #7700ff75;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\User\Downloads\logo img\Screenshot (116).png" width="1366px" height="180px">
+    </header>
+    <div class="sidebar">
+        <a href="https://github.com/isharwt03/CODSOFT" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/isha-rawat-a213282b8/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+    
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="https://i.pinimg.com/564x/56/a9/06/56a9062690bfa6514e6a959398b0107d.jpg" alt="isharwt" width="40px" height="160PX">
+            <p></p>
+            <h3 style="font-family: 'sans-serif;">Hello !!</h3><p> I'm Isha Rawat, I am passionate to create beautiful and functional websites. I specialize in front-end development and have a keen eye for design.
+                currently I am pursueing Bachelor of Computer Applications from COER UNIVERSITY ,ROORKEE . I have completed my schooling from ARMY PUBLIC SCHOOL ,ROORKEE .
+                I do participate in co-curricular activity with studies . </p>
+            <p></p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill">PROBLEM SOLVING</div>
+            <div class="skill">CREATE WEBSITE USING HTML</div>
+            <div class="skill">C LANGUAGE CODING</div>
+            <div class="skill">TEAM WORK</div>
+            <div class="skill">UI/UX Design </div>
+            <p></p>
+            <h4>HOBBIES:</h4>
+            <div class="skill">E-sports player</div>
+            <div class="skill">Sports Person </div>
+            <div class="skill">Love to read detective books </div>
+            <div class="skill">Music Lover</div> 
+            <div class="skill">code for exploring my imagination in computing feild </div>      
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>SOCIALMEDIA PLATFORM WEBSITE</h3>
+                <video width="320" height="240" controls>
+                    <source src="C:\Users\User\Downloads\kle.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                <p>Developed a fully responsive socialmedia platform website using html and css styling, featuring user authentication, registering featuring , and payment integration . </p>
+      </div>
+            <div class="project">
+                <h3>RAILWAY TICKET BOOKING WEBSITE</h3>
+                <img src="C:\Users\User\Pictures\Screenshots\Screenshot (117).png" alt="railway ticketbooking website">
+                <p>Designed and built a custom website for a local registration of tickets in railways , showcasing their work in an elegant and interactive gallery.</p>
+            </div>
+            <div class="project">
+                <h3>Image Recoginition using CNN on CIFAR-10 Dataset</h3>
+                <img src="C:\Users\User\Pictures\Screenshots\Screenshot (118).png" alt="cnn">
+            <p>Cleaning and augmenting the CIFAR-10 dataset to improve model performance.
+               CNN Architecture Design: Experimenting with different CNN architectures, including VGG, ResNet, and custom models, to optimize accuracy and efficiency.</p>            </div>
+            <p></p>
+            <h3>ACHIVEMENTS</h3>
+            <H3>3 MONTHS Internship in AI Artifical Intelegence .
+                <img src="C:\Users\User\Pictures\Screenshots\Screenshot (114).png" alt="Internship" width="750PX" height="450PX" >
+            </H3>
+             <h3>6 couses certicicates by google:- </h3>
+                <P>1.Crash Course on Python</P>
+                <P>2.Using Python to Interact with the Operating System</P>
+                <P>3.Introduction to Git and
+                    GitHub</P>
+                <P>4.Troubleshooting and
+                    Debugging Techniques</P>
+                <P> 5.Configuration Management
+                    and the Cloud</P>              
+                <P> 6.Automating Real-World
+                    Tasks with Python</P>
+                <img src="C:\Users\User\Pictures\Screenshots\Screenshot (113).png" width="500px"   alt="certificate" ">
+                <h3>Participated in hackthon compitions (EMPOWERING INDIA), Organised by "IIT ROORKEE" </h3>
+                <P></P>
+                <H3>National Player (BASKETBALL)</H3>
+            </p>
+        </section>
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>Download my resume to learn more about my experience and qualifications.</p>
+            <a href="#" download>Download Resume (PDF)</a>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email:eshx03@example.com</p>
+            <p>Phone:+91-0000-000-000</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Isha Rawat. All rights reserved.</p>
+    </footer>
+</body>
+</html>
